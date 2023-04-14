@@ -1,0 +1,21 @@
+.BloqueImagenes_div {
+    margin-bottom: 14px;
+} 
+
+.BloqueImagenes_div .div_img {
+    position: absolute;
+}
+
+.BloqueImagenes_div .div_div {
+    display: flex;
+    height: 300px;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.BloqueImagenes_div .div_div img {
+    display: inline-block;
+    flex: 1 0 auto;
+    height: 275px;
+    width: 100vw;
+}

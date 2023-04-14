@@ -1,0 +1,106 @@
+[
+    {
+        "id": 1,
+        "urlImagen": "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "category": {
+            "id": 1,
+            "titulo": "Hoteles",
+            "descripcion": "Establecimiento con uso exclusivo de sus servicios y que ofrece alojamiento y servicio de comedor.",
+            "urlImagen": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        "title": "Unique Art Madero",
+        "location": "Buenos Aires, Puerto Madero",
+        "description": "Lorem nesciunt. Veniam enim amet but illum fugit, or ullam aliquid. Quaerat quisquam or error ullamco dolore, or quisquam. Id eu. Pariatur doloremque, yet veritatis but fugit. Iure non."
+    },
+    {
+        "id": 2,
+        "urlImagen": "https://images.unsplash.com/photo-1570213489059-0aac6626cade?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "category": {
+            "id": 1,
+            "titulo": "Hoteles",
+            "descripcion": "Establecimiento con uso exclusivo de sus servicios y que ofrece alojamiento y servicio de comedor.",
+            "urlImagen": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        "title": "Hotel Deville Prime Campo Grande",
+        "location": "Brasil",
+        "description": "Aspernatur iure laboriosam veniam ipsum veniam, molestiae. Ad exercitation ea ipsum pariatur. Magnam vel or beatae, but ipsam.."
+    },
+    {
+        "id": 3,
+        "urlImagen": "https://images.unsplash.com/photo-1570213489059-0aac6626cade?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "category": {
+            "id": 2,
+            "titulo": "Hostels",
+            "descripcion": "Se trata de un albergue que se caracteriza por el bajo precio de las habitaciones",
+            "urlImagen": "https://images.unsplash.com/photo-1633411187642-f84216917af1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1191&q=80"
+        },
+        "title": "Torch 77",
+        "location": "Marina de Dubái, Dubái",
+        "description": "Lorem nesciunt. Veniam enim amet but illum fugit, or ullam aliquid. Quaerat quisquam or error ullamco dolore, or quisquam. Id eu. Pariatur doloremque, yet veritatis but fugit. Iure non."
+    },
+    {
+        "id": 4,
+        "urlImagen": "https://images.unsplash.com/photo-1560200353-ce0a76b1d438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+        "category": {
+            "id": 2,
+            "titulo": "Hostels",
+            "descripcion": "Se trata de un albergue que se caracteriza por el bajo precio de las habitaciones",
+            "urlImagen": "https://images.unsplash.com/photo-1633411187642-f84216917af1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1191&q=80"
+        },
+        "title": "Little Prince Hostel",
+        "location": "Eilat, Israel",
+        "description": "Lorem nesciunt. Veniam enim amet but illum fugit, or ullam aliquid. Quaerat quisquam or error ullamco dolore, or quisquam. Id eu. Pariatur doloremque, yet veritatis but fugit. Iure non."
+    },
+    {
+        "id": 5,
+        "urlImagen": "https://images.unsplash.com/photo-1603003568133-55b07aaf1860?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+        "category": {
+            "id": 3,
+            "titulo": "Departamentos",
+            "descripcion": "Consta de varios niveles sobre un terreno de dimensiones regulares si se trata de vivienda residencial",
+            "urlImagen": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        "title": "Coral Beach Resort",
+        "location": "Centro de Myrtle Beach, Myrtle Beach",
+        "description": "Lorem nesciunt. Veniam enim amet but illum fugit, or ullam aliquid. Quaerat quisquam or error ullamco dolore, or quisquam. Id eu. Pariatur doloremque, yet veritatis but fugit. Iure non."
+    },
+    {
+        "id": 6,
+        "urlImagen": "https://images.unsplash.com/photo-1570213489059-0aac6626cade?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "category": {
+            "id": 3,
+            "titulo": "Departamentos",
+            "descripcion": "Consta de varios niveles sobre un terreno de dimensiones regulares si se trata de vivienda residencial",
+            "urlImagen": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        "title": "Salty Air Retreat",
+        "location": "Myrtle Beach, Estados Unidos",
+        "description": "Lorem nesciunt. Veniam enim amet but illum fugit, or ullam aliquid. Quaerat quisquam or error ullamco dolore, or quisquam. Id eu. Pariatur doloremque, yet veritatis but fugit. Iure non."
+    },
+    {
+        "id": 7,
+        "urlImagen": "https://images.unsplash.com/photo-1578774204375-826dc5d996ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "category": {
+            "id": 4,
+            "titulo": "Bed and Breakfast",
+            "descripcion": "Alojamiento sencillo en una casa o residencia privada de entre cuatro y once habitaciones, que ofrecen alojamiento barato y un desayuno",
+            "urlImagen": "https://images.unsplash.com/photo-1580041065738-e72023775cdc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        "title": "Unique Art",
+        "location": "Las Vegas, Las Vegas, United States",
+        "description": "Lorem nesciunt. Veniam enim amet but illum fugit, or ullam aliquid. Quaerat quisquam or error ullamco dolore, or quisquam. Id eu. Pariatur doloremque, yet veritatis but fugit. Iure non."
+    },
+    {
+        "id": 8,
+        "urlImagen": "https://images.unsplash.com/photo-1587213811864-46e59f6873b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+        "category": {
+            "id": 4,
+            "titulo": "Bed and Breakfast",
+            "descripcion": "Alojamiento sencillo en una casa o residencia privada de entre cuatro y once habitaciones, que ofrecen alojamiento barato y un desayuno",
+            "urlImagen": "https://images.unsplash.com/photo-1580041065738-e72023775cdc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        "title": "Hotel Diplomat",
+        "location": "Strandvägen, Stockholm, Sweden",
+        "description": "Lorem nesciunt. Veniam enim amet but illum fugit, or ullam aliquid. Quaerat quisquam or error ullamco dolore, or quisquam. Id eu. Pariatur doloremque, yet veritatis but fugit. Iure non."
+    }
+]

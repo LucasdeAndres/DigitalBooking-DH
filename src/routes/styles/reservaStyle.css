@@ -1,0 +1,319 @@
+.formReserva{
+    background-color: var(--light_grey);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 40px 40px 40px;
+}
+
+.formReserva h2 {
+    padding-bottom: 20px;
+}
+
+.reserva_Bloque1 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.reserva_Bloque2 {
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+
+.crearPropiedad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.formProducto {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    background-color: var(--light_grey);
+    padding: 20px;
+    margin-bottom: 60px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+.formProducto textarea {
+    height: 100px;
+}
+
+.input_suave {
+        width: 100%;
+        border-radius: 5px;
+        padding-left: 5px;
+        border: none;
+        box-shadow: 1px 1px 3px 2px rgba(223, 223, 223, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+}
+
+.principio {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.principio_main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.principio_bloque1{
+    width: 80%;
+}
+.principio_bloque1 input {
+    width: 90%;
+    height: 23px;
+}
+.principio_bloque2{
+    width: 80%;
+}
+.principio_bloque2 select {
+    width: 100%;
+    height: 23px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    border-right: 10px solid white;
+    background-color: white;
+}
+
+.principio_bloque3 textarea {
+    width: 100%;
+    height: 100px;
+
+}
+
+.medio {
+    width: 90%;
+}
+
+.medio_main {
+
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.checkBox {
+    display: flex;
+}
+
+.medio2 {
+    width: 90%;
+}
+
+.medio2_main {
+    display: flex;
+
+    justify-content: center;
+}
+
+.medio2_bloque1 {
+
+    width: 30%;
+    padding: 20px;
+}
+
+.medio2_bloque2 {
+
+    width: 30%;
+    padding: 20px;
+}
+
+.medio2_bloque3 {
+
+    width: 30%;
+    padding: 20px;
+}
+
+.medio2_bloque1 input {
+    width: 100%;
+    height: 100px;
+}
+
+.medio2_bloque2 input {
+    width: 100%;
+    height: 100px;
+}
+
+.medio2_bloque3 input {
+    width: 100%;
+    height: 100px;
+}
+
+.final {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+}
+
+.final_main {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.final_main input {
+    width: 80%;
+}
+
+.final_main button {
+    width: 20%;
+}
+
+.final_main_2{
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.final_main_2 .icon_crearProducto_2{
+    background-color: var(--white);
+    font-size: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    border: 2px dotted rgb(183, 183, 183);
+    color: rgb(183, 183, 183);
+}
+
+.final_main_2 .final_imagen {
+    height: 127px;
+    width: 16%;
+    padding: 20px;
+    position: relative;
+}
+
+.final_imagen:hover::before {
+    content: "X";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+  }
+
+  .final_imagen:active::before {
+    background-color: rgba(29, 190, 180, 0.6); 
+    color: white;
+  }
+
+.final_main_2 .final_imagen img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.formProducto_crear {
+    width: 40%;
+    margin: 40px;
+}
+
+
+
+.formProducto button {
+    background-color: var(--green);
+
+    color: white;
+}
+
+.formProducto button:hover {
+    background-color: var(--blue);
+}
+
+.formProducto button:active {
+    background-color: var(--dark_blue);
+    color: white
+}
+
+
+
+@media screen and (max-width: 1025px) and (min-width: 500px) {
+    .formReserva {
+        flex-direction: column;
+    }
+    .reserva_Bloque1 {
+        width: 92%;
+    }
+    .reserva_Bloque2 {
+        width: 92%;
+        margin-top: 40px;
+    }
+    .final_main_2 .final_imagen {
+        height: 182px;
+        width: 43%;
+        padding: 20px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .formReserva {
+        flex-direction: column;
+    }
+    .reserva_Bloque1 {
+        width: 92%;
+    }
+    .reserva_Bloque2 {
+        width: 92%;
+        margin-top: 40px;
+    }
+    .formProducto .principio_main, .formProducto .final_main,.formProducto .medio2_main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .formProducto .medio2_bloque1, .formProducto .medio2_bloque2, .formProducto .medio2_bloque3{
+        width: 84%;
+    }
+
+    .formProducto .formProducto_crear {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+    .final_main_2 .final_imagen {
+        height: 182px;
+        width: 100%;
+        padding: 20px;
+        position: relative;
+    }
+
+}

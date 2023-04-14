@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "titulo": "Hoteles",
+        "descripcion": "Establecimiento con uso exclusivo de sus servicios y que ofrece alojamiento y servicio de comedor.",
+        "urlImagen": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+        "id": 2,
+        "titulo": "Hostels",
+        "descripcion": "Se trata de un albergue que se caracteriza por el bajo precio de las habitaciones",
+        "urlImagen": "https://images.unsplash.com/photo-1633411187642-f84216917af1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1191&q=80"
+    },
+    {
+        "id": 3,
+        "titulo": "Departamentos",
+        "descripcion": "Consta de varios niveles sobre un terreno de dimensiones regulares si se trata de vivienda residencial",
+        "urlImagen": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+        "id": 4,
+        "titulo": "Bed and Breakfast",
+        "descripcion": "Alojamiento sencillo en una casa o residencia privada de entre cuatro y once habitaciones, que ofrecen alojamiento barato y un desayuno",
+        "urlImagen": "https://images.unsplash.com/photo-1580041065738-e72023775cdc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    }
+]

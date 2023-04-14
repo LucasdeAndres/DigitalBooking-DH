@@ -1,0 +1,26 @@
+/* Login styles */
+.Login__section {
+    margin: 8.625rem auto;
+    width: 90vw;
+}
+
+.Login__section .div__h1 {
+    margin-bottom: 4.0625rem;
+}
+
+.Login__section .section__div .div__div form p {
+    color: #FF0000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+    margin-top: 0.625rem;
+    text-align: center;
+}
+
+/* Login styles-applicable */
+.loginInputs {
+    /*flex-basis: 21.8px;*/
+    flex-basis: 28rem;
+}

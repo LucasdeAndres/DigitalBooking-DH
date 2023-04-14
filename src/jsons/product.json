@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,  
+      "nombre": "Hotel Ejemplo",
+      "descripcion": "Un hermoso hotel en el centro de la ciudad",
+      "ciudad": "Ciudad Ejemplo",
+      "pais": "Pais Ejemplo",
+      "imagenes": [
+        "https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
+        "https://images.unsplash.com/photo-1606046604972-77cc76aee944?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2532&q=80"
+      ],
+      "caracteristicas": [
+        "WiFi",
+        "Piscina",
+        "Aire acondicionado",
+        "Servicio de habitaciones",
+        "Gimnasio",
+        "Desayuno incluido"
+      ],
+      "politicas": [
+        "No se permiten mascotas",
+        "No se permite fumar",
+        "No se permite el ingreso de personas ajenas al hotel",
+        "Los menores de edad deben estar acompañados por un adulto",
+        "Los huéspedes deben respetar el horario de silencio"
+      ]
+    }
+]

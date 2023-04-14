@@ -1,0 +1,107 @@
+.card {
+    display: flex;
+    background-color: var(--white);
+    color: var(--blue);
+    box-shadow: 0 0.3125rem 0.4375rem rgba(160, 160, 160, 0.4);
+    border-radius: 0.625rem;
+    width: 49%;
+    height: 350px;
+}
+
+.card .cardImages {
+    position: relative;
+
+    width: 50%;
+}
+
+.card .cardImages img{
+    width: 100%;
+    border-top-left-radius: 0.625rem;
+    border-bottom-left-radius: 0.625rem;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .heart {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 180%;
+    color: var(--white);
+}
+
+.card .cardText {
+    padding: 1.25rem;
+    width: 50%;
+}   
+
+.card .verMas {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.card .cardBody {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.card .cardHeader h3, .cardHeader h2 {
+    margin: 0;
+}
+
+.verMas:hover {
+    background-color: var(--blue);
+}
+
+.verMas:active {
+    background-color: var(--dark_blue);
+    color: white
+}
+
+.p_card:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 1025px) and (min-width: 500px) {
+    .card {
+        width: 90%;
+    }   
+}
+
+@media screen and (max-width: 500px) {
+    .card {
+        height: 630px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .card .cardText {
+        padding: 1.25rem;
+        width: 90%;
+        height: 50%;
+    }
+    .card .cardImages {
+        overflow: hidden;
+        width: 100%;
+        border-top-right-radius: 0.625rem;
+        border-top-left-radius: 0.625rem;
+        height: 50%;
+    }
+    
+    .card .cardImages img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 0.625rem;
+        border-top-left-radius: 0.625rem;
+        border-bottom-left-radius: 0;
+    }
+    .cardBody {
+        display: flex;
+        align-items: center;
+        gap: 0.625rem;
+    }
+
+}

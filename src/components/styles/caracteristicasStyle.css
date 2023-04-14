@@ -1,0 +1,43 @@
+.Caracteristicas_div h4 {
+    border-bottom: 1px solid #1DBEB4;
+    color: #383B58;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.Caracteristicas_div .div_div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.Caracteristicas_div .div_div div {
+    width: 50%;
+}
+
+.Caracteristicas_div .div_div .iconos {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.Caracteristicas_div .div_div div p {
+    color: #4F4F50;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.Caracteristicas_div {
+    margin: 40px;
+}
+

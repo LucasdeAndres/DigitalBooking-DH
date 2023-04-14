@@ -1,0 +1,45 @@
+.BloqueHeader_div {
+    align-items: center;
+    background-color: #545776;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.BloqueHeader_div h4, .BloqueHeader_div h2 {
+    margin: 0;
+    width: fit-content;
+}
+
+.BloqueHeader_div div {
+    color: #FFFFFF;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.BloqueHeader_div div h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.BloqueHeader_div div h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.BloqueHeader_div img {
+    display: inline-block;
+    height: 23.02px;
+    margin-right: 15px;
+    width: 15px;
+}
+
+.BloqueHeader_div {
+   padding: 20px 40px;
+}

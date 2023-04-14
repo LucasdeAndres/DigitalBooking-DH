@@ -1,0 +1,38 @@
+.reservaFormD {
+    padding: 20px;
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.reservaFormD img {
+    width: 100%;
+}
+
+.divCheckIn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divCheckOut {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reservaFormD button {
+    width: 100%;
+}
+
+.button_submit {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.button_submit:hover {
+    background-color: var(--blue);
+}
+
+.button_submit:active {
+    background-color: var(--dark_blue);
+    color: white
+}

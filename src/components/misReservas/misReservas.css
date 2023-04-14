@@ -1,0 +1,61 @@
+.MisReservas__div h1 {
+    background-color: var(--blue);
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0;
+}
+
+.MisReservas__section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.MisReservas__section article {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 5px 10px 5px;
+    width: 250px;
+    text-align: center;
+    height: fit-content;
+}
+
+.MisReservas__section article img {
+    border-radius: 10px;
+    height: 150px;
+    width: 100%;
+}
+
+.MisReservas__section article h4 {
+    color: var(--dark_blue);
+}
+
+.nanReservas {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+}
+
+.nanReservas img {
+    height: 39px;
+    margin: 0 auto;
+    width: 39px;
+}
+
+.nanReservas a {
+    color: var(--blue);
+    text-align: center;
+    text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+    .MisReservas__section {
+        align-items: center;
+    }
+}

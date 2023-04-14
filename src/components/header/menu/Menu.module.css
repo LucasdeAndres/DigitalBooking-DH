@@ -1,0 +1,178 @@
+/* Menu */
+.menu {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: -303px;
+    max-width: 303px;
+    width: 100%;
+    align-items: flex-end;
+    background-color: var(--white);
+    height: 100%;
+    overflow-y: auto;
+    pointer-events: none;
+    transition: all 0.5s;
+
+    z-index: 999;
+}
+
+.menuTop {
+    background-color: var(--green);
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 175px;
+    padding-right: 10px;
+}
+
+.loggedIn {
+    align-items: flex-end;
+}
+
+.menuTop p {
+    align-self: flex-end;
+
+    font-weight: 700;
+}
+
+.menuTitle {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/*Menu Body */
+.menuBody {
+    padding: 0 10px;
+    flex: 1;
+    width: 100%;
+    transition: flex 5s;
+    /* height: 65%; */
+}
+
+.menuBody ul {
+    list-style: none;
+    float: right;
+    width: 100%;
+    margin: 0;
+    text-align: end;
+}
+
+.menuBody ul li {
+    margin: 21px 0px 16px 0px;
+}
+
+.menuBody ul a {
+    color: var(--dark_blue);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+/* Menu Footer Social*/
+.menuFooter {
+    width: 100%;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.signOff {
+    color: var(--green);
+    transition: color 0.3s ease-in-out;
+}
+
+.signOff:hover {
+    color: var(--green);
+}
+
+.lineOrange {
+    display: block;
+    border: 1px solid var(--green);
+    background-color: var(--green);
+    width: 100%;
+}
+
+.openMenu,
+.closeMenu {
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.openMenu svg {
+    font-size: 24px;
+    color: var(--dark_blue);
+}
+
+.closeMenu {
+    align-self: flex-start;
+    margin: 12px 14px;
+    color: var(--white);
+}
+
+.closeMenu svg {
+    color: var(--white);
+    font-size: 24px;
+}
+
+.menuOpened {
+    display: flex;
+    opacity: 1;
+    pointer-events: all;
+    right: 0;
+    transition: right 0.5s;
+    /* z-index: 999; */
+}
+
+.openMenu:focus:not(:focus-visible),
+.closeMenu:focus:not(:focus-visible) {
+    outline: none;
+}
+
+/* Container-rigth / Buttons tablet-desktop */
+.containerRigth {
+    display: none;
+}
+
+@media (min-width: 768px) {
+.containerRigth {
+    display: block;
+    position: relative;
+}
+
+.btnGroup {
+    display: flex;
+    gap: 1rem;
+}
+
+.menuBody {
+    display: block;
+}
+
+.openMenu {
+    display: none;
+}
+
+.closeMenu {
+    position: absolute;
+    right: 0;
+    padding: 5px;
+    margin: 0;
+    color: var(--blue);
+}
+
+.closeMenu svg {
+    font-size: 20px;
+    color: var(--dark_blue);
+}
+}
