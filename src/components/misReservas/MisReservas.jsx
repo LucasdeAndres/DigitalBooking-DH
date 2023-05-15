@@ -36,7 +36,7 @@ const MisReservas = () => {
         redirect: 'follow'
         };
 
-        fetch(`http://ec2-3-145-180-105.us-east-2.compute.amazonaws.com:8080/reservas/user/${userContextResult.userInfo.id}`, requestOptions)
+        fetch(`http://ec2-18-119-10-128.us-east-2.compute.amazonaws.com:8080/reservas/user/${userContextResult.userInfo.id}`, requestOptions)
         .then(response => response.json())
         .then(data => {
             console.log(data)
@@ -44,7 +44,7 @@ const MisReservas = () => {
         })
         .catch(error => console.log('error', error));
 
-        fetch(`http://ec2-3-145-180-105.us-east-2.compute.amazonaws.com:8080/productos`)
+        fetch(`http://ec2-18-119-10-128.us-east-2.compute.amazonaws.com:8080/productos`)
         .then(response => response.json())
         .then(data => {
             console.log(data)

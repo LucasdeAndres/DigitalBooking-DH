@@ -26,7 +26,7 @@ import { ReservaFormD } from "../components/ReservaFormD";
         const productoId = parseInt(id)
 
         useEffect(() => {
-          axios.get(`http://ec2-3-145-180-105.us-east-2.compute.amazonaws.com:8080/productos/${id}`)
+          axios.get(`http://ec2-18-119-10-128.us-east-2.compute.amazonaws.com:8080/productos/${id}`)
             .then(function (response) {
               setData(response.data);
             })
@@ -134,7 +134,7 @@ import { ReservaFormD } from "../components/ReservaFormD";
               return;
             }
           
-            axios.patch(`http://ec2-3-145-180-105.us-east-2.compute.amazonaws.com:8080/auth/user/${user.id}`, JSON.stringify({
+            axios.patch(`http://ec2-18-119-10-128.us-east-2.compute.amazonaws.com:8080/auth/user/${user.id}`, JSON.stringify({
               ciudad: datosReserva.ciudad
             }), {
               headers: {
@@ -157,7 +157,7 @@ import { ReservaFormD } from "../components/ReservaFormD";
               idUsuario: datosReserva.idUsuario
             };
           
-            axios.post("http://ec2-3-145-180-105.us-east-2.compute.amazonaws.com:8080/reservas/add", JSON.stringify(reservaData), {
+            axios.post("http://ec2-18-119-10-128.us-east-2.compute.amazonaws.com:8080/reservas/add", JSON.stringify(reservaData), {
               headers: {
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${jwt}`

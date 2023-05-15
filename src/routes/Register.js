@@ -108,7 +108,7 @@ const Register = () => {
 				role: ["USER"],
 			};
 			let responseClone = ""; //1
-			await fetch("http://ec2-3-145-180-105.us-east-2.compute.amazonaws.com:8080/auth/user/signup", {
+			await fetch("http://ec2-18-119-10-128.us-east-2.compute.amazonaws.com:8080/auth/user/signup", {
 				method: "POST",
 				body: JSON.stringify(data),
 				headers: {
@@ -125,7 +125,7 @@ const Register = () => {
 							console.log(data)
 							console.log("bien");
 							localStorage.clear();
-							fetch("http://ec2-3-145-180-105.us-east-2.compute.amazonaws.com:8080/auth/user/signup", {
+							fetch("http://ec2-18-119-10-128.us-east-2.compute.amazonaws.com:8080/auth/user/signup", {
 								method: "POST",
 								body: JSON.stringify({
 									nombre: name.value,

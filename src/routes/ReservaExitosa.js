@@ -19,10 +19,10 @@
                 <Header />
                     <section className="reservaExitosa_section">
                         <div className="reservaExitosa">
-                            <FontAwesomeIcon icon={faCheckCircle} />
+                            <FontAwesomeIcon icon={faCheckCircle} className="icono"/>
                             <h1>Muchas Gracias</h1>
                             <p>Su reserva fue realizada con exito</p>
-                            <Link to={"/"}><button>ok</button></Link>
+                            <Link to={"/"} className="a"><button>OK</button></Link>
                         </div>
                     </section>    
                 <Footer />

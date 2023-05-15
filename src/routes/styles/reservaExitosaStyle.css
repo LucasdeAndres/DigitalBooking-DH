@@ -16,3 +16,33 @@
     justify-content: center;
     align-items: center;
 }
+
+.reservaExitosa .icono {
+    width: 30%;
+    height: auto;
+}
+
+.reservaExitosa button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.reservaExitosa p {
+    width: 80%;
+    text-align: center;
+}
+
+.reservaExitosa h1 {
+    width: 80%;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .reservaExitosa a {
+        width: 122%;
+    }
+}

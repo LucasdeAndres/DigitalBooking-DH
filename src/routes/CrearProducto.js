@@ -21,7 +21,7 @@ import {
         const [ciudades, setCiudades] = useState([]);
 
         useEffect(() => {
-          axios.get("http://ec2-3-145-180-105.us-east-2.compute.amazonaws.com:8080/ciudades")
+          axios.get("http://ec2-18-119-10-128.us-east-2.compute.amazonaws.com:8080/ciudades")
           .then( res => setCiudades(res.data))
         },[])
 
@@ -29,7 +29,7 @@ import {
         const [category, setCategory] = useState([]);
 
         useEffect(() => {
-            axios.get("http://ec2-3-145-180-105.us-east-2.compute.amazonaws.com:8080/categorias")
+            axios.get("http://ec2-18-119-10-128.us-east-2.compute.amazonaws.com:8080/categorias")
             .then( res => setCategory(res.data))
             .catch(error => {
                 console.error('Error fetching categorias data:', error);
@@ -39,7 +39,7 @@ import {
         const [caracteristicas, setCaracteristicas] = useState([]);
 
         useEffect(() => {
-            axios.get("http://ec2-3-145-180-105.us-east-2.compute.amazonaws.com:8080/caracteristicas")
+            axios.get("http://ec2-18-119-10-128.us-east-2.compute.amazonaws.com:8080/caracteristicas")
             .then( res => setCaracteristicas(res.data))
             .catch(error => {
                 console.error('Error fetching categorias data:', error);
@@ -305,7 +305,7 @@ import {
                     politicasCancelacion: datosCrearProducto.politicasCancelacion
                 }
     
-                axios.post("http://ec2-3-145-180-105.us-east-2.compute.amazonaws.com:8080/productos/add", JSON.stringify(crearProductoData), {
+                axios.post("http://ec2-18-119-10-128.us-east-2.compute.amazonaws.com:8080/productos/add", JSON.stringify(crearProductoData), {
                     headers: {
                       'Content-Type': 'application/json',
                       'Authorization': `Bearer ${jwt}`
@@ -326,7 +326,7 @@ import {
                   
                   Promise.all(
                     crearImagenes.map(imagen =>
-                      axios.post("http://ec2-3-145-180-105.us-east-2.compute.amazonaws.com:8080/imagenes/add", JSON.stringify(imagen), {
+                      axios.post("http://ec2-18-119-10-128.us-east-2.compute.amazonaws.com:8080/imagenes/add", JSON.stringify(imagen), {
                         headers: {
                           'Content-Type': 'application/json',
                           'Authorization': `Bearer ${jwt}`

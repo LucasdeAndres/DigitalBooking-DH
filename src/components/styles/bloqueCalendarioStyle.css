@@ -3,6 +3,7 @@
     padding: 20px;
     padding-left: 40px;
     padding-right: 40px;
+    position: relative;
 }   
 
 .BloqueCalendario_div .block {
@@ -10,9 +11,12 @@
     position: absolute;
     background-color: rgba(0, 0, 0, 0.40);
     display: flex;
-    height: 461px;
+    height: 100%;
     justify-content: center;
     width: 100vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 9;
 }
 
@@ -103,7 +107,7 @@
     }   
 
     .BloqueCalendario_div .block {
-        height: 375px;
+        height: 100%;
     }
 
     .BloqueCalendario_div .div_div .div_div {

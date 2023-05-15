@@ -13,14 +13,14 @@ function Searcher(props) {
   const [ciudades, setCiudades] = useState([]);
 
   useEffect(() => {
-    axios.get("http://ec2-3-145-180-105.us-east-2.compute.amazonaws.com:8080/ciudades")
+    axios.get("http://ec2-18-119-10-128.us-east-2.compute.amazonaws.com:8080/ciudades")
     .then( res => setCiudades(res.data))
   },[])
 
   const [productos, setProductos] = useState([]);
 
     useEffect(() => {
-        axios.get("http://ec2-3-145-180-105.us-east-2.compute.amazonaws.com:8080/productos")
+        axios.get("http://ec2-18-119-10-128.us-east-2.compute.amazonaws.com:8080/productos")
     .then( res => setProductos(res.data))
     },[])
 

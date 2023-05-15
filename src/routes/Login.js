@@ -48,7 +48,7 @@ const Login = () => {
         password: password.value,
       };
       setIsLoading(true);
-      fetch("http://ec2-3-145-180-105.us-east-2.compute.amazonaws.com:8080/auth/user/signin", {
+      fetch("http://ec2-18-119-10-128.us-east-2.compute.amazonaws.com:8080/auth/user/signin", {
         method: 'POST',
         body: JSON.stringify(data),
         headers: {
